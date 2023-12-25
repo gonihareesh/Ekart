@@ -1,0 +1,48 @@
+.eKart--header{
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #ff5500 1.5px solid;
+}
+
+.eKart-logo{
+padding: 1.2vh 8vh;
+font-size: 40px;
+font-weight: bold;
+color: yellowgreen;
+font-family: 'concert one',cursive;
+width: 20%;
+}
+.eKart--header--nav{
+    width: 80%;
+    padding: 1vh 2vh;
+    font-size: 10px;
+}
+.eKart--button--bar{
+    width: auto;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+
+.eKart--button--bar{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #282828;
+}
+
+.btn{
+    padding: 15px 25px;
+    border: none;
+    margin: 10px 0px;
+}
+.btn-primary{
+    background-color: #282828;
+    color: white;
+} 

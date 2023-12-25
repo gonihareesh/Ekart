@@ -1,0 +1,14 @@
+.flipKart--top--bar{
+    width: auto;
+    text-align: right;
+    padding-top: 3px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+
+a:hover:active{
+   background-color: green;
+}

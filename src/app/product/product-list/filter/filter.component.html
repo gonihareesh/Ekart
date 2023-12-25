@@ -1,0 +1,27 @@
+ <div class="filter-container">
+    <span>Filter: </span>
+    <!-- ngmodel is used to two way data binding for component -->
+    <input
+     type="radio" 
+     name="filter" 
+     value="all" 
+     [(ngModel)]="selectFilterRadioButton" 
+     (change)="onSelectedFilterRedioButton()"/>
+    <span>{{'All ('+all+')'}}</span>
+    <input
+     type="radio" 
+     name="filter" 
+     value="true" 
+     [(ngModel)]="selectFilterRadioButton" 
+     (change)="onSelectedFilterRedioButton()"/>
+    
+     <span>{{'InStock ('+inStock+')'}}</span>
+    <input 
+    type="radio" 
+    name="filter" 
+    value="false" 
+    [(ngModel)]="selectFilterRadioButton" 
+    (change)="onSelectedFilterRedioButton()">
+    
+    <span>{{'Out Of Stock ('+outOfStock+')'}}</span>
+</div>
