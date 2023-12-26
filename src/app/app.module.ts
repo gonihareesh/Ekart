@@ -14,6 +14,7 @@ import { ProductListComponent } from './product/product-list/product-list.compon
 import { ChildProductComponent } from './product/product-list/child product/child-product.component';
 import { FilterComponent } from './product/product-list/filter/filter.component';
 import { ProductDetailsComponent } from './product/product-details/product-details.component';
+import { FeaturesBrandComponent } from './product/features-brand/features-brand.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ProductDetailsComponent } from './product/product-details/product-detai
     ProductListComponent,
     ChildProductComponent,
     FilterComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    FeaturesBrandComponent
   ],
   imports: [
     BrowserModule,
